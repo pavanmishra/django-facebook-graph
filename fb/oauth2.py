@@ -56,7 +56,7 @@ def parseSignedRequest(signed_request, secret=None, application=None):
 
 
 def authenticate(app_id, app_secret, code=None, redirect_uri="", type=None):
-    from facebook.graph import GraphAPIError
+    from fb.graph import GraphAPIError
     
     args = {'client_id': app_id,
             'client_secret': app_secret,
