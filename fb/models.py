@@ -5,4 +5,4 @@
     possible rewrite with dynamic imports http://www.diveintopython.net/functional_programming/dynamic_import.html
 """
 
-from facebook.fb import *
+from fb.facebook import *

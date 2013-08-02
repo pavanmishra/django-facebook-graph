@@ -4,7 +4,7 @@ from django.template.defaultfilters import slugify
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 
-from facebook.modules.base import Base, AdminBase
+from fb.modules.base import Base, AdminBase
 
 
 class Profile(Base):

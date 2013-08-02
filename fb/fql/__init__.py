@@ -3,7 +3,7 @@
 import logging
 import urllib
 logger = logging.getLogger(__name__)
-from facebook.graph import GraphAPIError
+from fb.graph import GraphAPIError
 
 # Find a JSON parser
 try:

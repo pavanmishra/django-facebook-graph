@@ -4,7 +4,7 @@ from facebook.graph import get_graph, GraphAPIError
 
 import logging, datetime
 from facebook.modules.profile.application.utils import get_app_dict
-from facebook.utils import do_exchange_token
+from fb.utils import do_exchange_token
 
 logger = logging.getLogger(__name__)
 

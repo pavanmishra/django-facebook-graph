@@ -12,9 +12,9 @@ from django.utils import simplejson as json
 from django.utils.translation import ugettext_lazy as _
 from django.template.defaultfilters import slugify
 
-from facebook.graph import GraphAPIError, get_graph
+from fb.graph import GraphAPIError, get_graph
 
-from facebook.fields import JSONField
+from fb.fields import JSONField
 
 
 class Base(models.Model):

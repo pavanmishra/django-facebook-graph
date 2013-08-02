@@ -4,10 +4,10 @@ logger = logging.getLogger(__name__)
 
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
-from facebook.fields import JSONField
-from facebook.graph import get_graph, GraphAPIError
+from fb.fields import JSONField
+from fb.graph import get_graph, GraphAPIError
 
-from facebook.modules.profile.models import Profile
+from fb.modules.profile.models import Profile
 
 class PageBase(Profile):
     # Cached Facebook Graph fields for db lookup

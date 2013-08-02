@@ -5,7 +5,7 @@ import urllib2
 import warnings
 from urllib2 import HTTPError
 
-from facebook.utils import MultipartPostHandler
+from .utils import MultipartPostHandler
 
 import logging
 from django.http import HttpResponseServerError
@@ -13,9 +13,9 @@ logger = logging.getLogger(__name__)
 
 from datetime import datetime, timedelta
 
-from facebook.modules.profile.application.utils import get_app_dict
-from facebook.oauth2 import authenticate, parseSignedRequest
-from facebook.session import get_session
+from .modules.profile.application.utils import get_app_dict
+from .oauth2 import authenticate, parseSignedRequest
+from .session import get_session
 
 # Find a JSON parser
 try:
