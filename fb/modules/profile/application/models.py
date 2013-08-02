@@ -9,9 +9,9 @@ except ImportError:
 
 from datetime import timedelta
 
-from facebook.modules.base import Base
-from facebook.modules.profile.user.models import User
-from facebook.graph import get_graph, GraphAPIError
+from fb.modules.base import Base
+from fb.modules.profile.user.models import User
+from fb.graph import get_graph, GraphAPIError
 
 
 FACEBOOK_APPS_CHOICE = tuple((v['ID'], unicode(k)) for k,v in settings.FACEBOOK_APPS.items())

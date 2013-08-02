@@ -18,8 +18,8 @@ from oauth2 import authenticate, parseSignedRequest
 from session import get_session
 from graph import get_graph
 from modules.profile.application.utils import get_app_dict
-from facebook.graph import GraphAPIError
-from facebook.modules.profile.application.models import Request as AppRequest
+from fb.graph import GraphAPIError
+from fb.modules.profile.application.models import Request as AppRequest
 
 
 class SignedRequestMiddleware(object):

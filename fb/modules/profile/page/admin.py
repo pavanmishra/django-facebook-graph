@@ -1,15 +1,15 @@
 from django.contrib import admin
 from django.utils.translation import ugettext_lazy as _
-from facebook.graph import get_graph, GraphAPIError
+from fb.graph import get_graph, GraphAPIError
 
 import logging, datetime
-from facebook.modules.profile.application.utils import get_app_dict
+from fb.modules.profile.application.utils import get_app_dict
 from fb.utils import do_exchange_token
 
 logger = logging.getLogger(__name__)
 
 from django.conf import settings
-from facebook.modules.profile.models import ProfileAdmin
+from fb.modules.profile.models import ProfileAdmin
 
 from .models import Page
 

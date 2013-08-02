@@ -5,8 +5,8 @@ from django.contrib.auth.models import User as DjangoUser
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from facebook.modules.profile.models import Profile
-from facebook.graph import get_graph
+from fb.modules.profile.models import Profile
+from fb.graph import get_graph
 
 
 class UserBase(Profile):
