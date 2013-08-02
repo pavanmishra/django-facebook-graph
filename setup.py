@@ -4,12 +4,12 @@
 from distutils.core import setup
 
 setup(
-name='django-facebook-graph',
+name='django-facebook-graph-imly',
 version='0.2.0',
 author=u'Simon Baechler, Simon Schmid',
-packages=['facebook',],
-url='https://github.com/feinheit/django-facebook-graph/',
+packages=['fb',],
+url='https://github.com/pavanmishra/django-facebook-graph/',
 license='LICENSE',
-description='Facebook graph api helpers.',
+description='Facebook graph api helpers. modified the name of the package from django-facebook-graph from feincms',
 long_description=open('README.rst').read(),
 )
